@@ -4,34 +4,35 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.eisenhowen-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.eisenhowen-matrix img {
   width: 100%;
 }
-.aaa .more_inf {
+.eisenhowen-matrix .eisenhowen-matrix__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.eisenhowen-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.to-do {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-name,
+.task-name__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 ul {
@@ -118,12 +119,12 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.button_delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -138,7 +139,7 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.task-to-do__item_edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
