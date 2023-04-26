@@ -37,7 +37,8 @@ body {
 }
 
 .task-name,
-.task-name__input {
+.task-name__input,
+.add-item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
